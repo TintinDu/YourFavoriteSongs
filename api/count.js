@@ -1,4 +1,5 @@
 exports.count = string => {
+  if(!string) return
   let map = {}
   const words = string.split(" ").filter(word => word !== "")
 
