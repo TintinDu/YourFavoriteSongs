@@ -1,9 +1,8 @@
 const express = require("express")
-const app = ("./app")
-const cors = require("cors")
-
-app.use(cors())
+const app = require("./app")
 
 app.listen(3000, () => {
   console.log("app listening on port 3000")
 })
+
+app.use(express.json())
