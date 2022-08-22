@@ -1,0 +1,24 @@
+{
+  "name": "yourfavoritesongs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TintinDu/YourFavoriteSongs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TintinDu/YourFavoriteSongs/issues"
+  },
+  "homepage": "https://github.com/TintinDu/YourFavoriteSongs#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
